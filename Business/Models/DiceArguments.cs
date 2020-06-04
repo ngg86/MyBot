@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Discord.Commands;
 
 namespace Business.Models
 {
-	class DiceArguments
+	[NamedArgumentType]
+	public class DiceArguments
 	{
+		public int AmountOfDice { get; set; }
+		public int DiceValue { get; set; }
+		public int AbilityModifier { get; set; }
+		public string ErrorMessage { get; set; }
+		public bool ModifierIsNegative { get; set; }
 	}
 }
