@@ -59,5 +59,905 @@ namespace Business.Texts {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The only foe you&apos;ve dropped is my expectations..
+        /// </summary>
+        internal static string String {
+            get {
+                return ResourceManager.GetString("String", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must have worked hard to be this incompetent..
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You couldn&apos;t hit the broad side of your mother&apos;s ass..
+        /// </summary>
+        internal static string String10 {
+            get {
+                return ResourceManager.GetString("String10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to With a face like that, you&apos;d make a lovely corpse..
+        /// </summary>
+        internal static string String11 {
+            get {
+                return ResourceManager.GetString("String11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go deepthroat a cactus..
+        /// </summary>
+        internal static string String12 {
+            get {
+                return ResourceManager.GetString("String12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How about you play a nice game of hide and go fuck yourself..
+        /// </summary>
+        internal static string String13 {
+            get {
+                return ResourceManager.GetString("String13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d shoot you but I wouldn&apos;t wish that on any arrow..
+        /// </summary>
+        internal static string String14 {
+            get {
+                return ResourceManager.GetString("String14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You&apos;re why parents beat their children..
+        /// </summary>
+        internal static string String15 {
+            get {
+                return ResourceManager.GetString("String15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You look like your face was on fire and someone tried to put it out with an ice pick..
+        /// </summary>
+        internal static string String16 {
+            get {
+                return ResourceManager.GetString("String16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You remind me of Rapunzel, except instead of letting your hair down you let everyone else down..
+        /// </summary>
+        internal static string String17 {
+            get {
+                return ResourceManager.GetString("String17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We all make mistakes. I&apos;m sure your parents are good people..
+        /// </summary>
+        internal static string String18 {
+            get {
+                return ResourceManager.GetString("String18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your parents should&apos;ve known better..
+        /// </summary>
+        internal static string String19 {
+            get {
+                return ResourceManager.GetString("String19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d call you a complete moron but I think you&apos;re missing a few screws..
+        /// </summary>
+        internal static string String2 {
+            get {
+                return ResourceManager.GetString("String2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Anyone who ever loved you was wrong..
+        /// </summary>
+        internal static string String20 {
+            get {
+                return ResourceManager.GetString("String20", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you were any more inbred you&apos;d be a sandwich..
+        /// </summary>
+        internal static string String21 {
+            get {
+                return ResourceManager.GetString("String21", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to So what flew faster? Your arrows, or your family leaving you?.
+        /// </summary>
+        internal static string String22 {
+            get {
+                return ResourceManager.GetString("String22", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to My blows avoid you just like everyone else in your life..
+        /// </summary>
+        internal static string String23 {
+            get {
+                return ResourceManager.GetString("String23", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you were on fire I wouldn&apos;t piss on you to put it out..
+        /// </summary>
+        internal static string String24 {
+            get {
+                return ResourceManager.GetString("String24", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You&apos;re about as useful as teets on a breastplate..
+        /// </summary>
+        internal static string String25 {
+            get {
+                return ResourceManager.GetString("String25", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to When you were young your home tried to run away from you..
+        /// </summary>
+        internal static string String26 {
+            get {
+                return ResourceManager.GetString("String26", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to When you played hide and seek as a kid no one looked for you..
+        /// </summary>
+        internal static string String27 {
+            get {
+                return ResourceManager.GetString("String27", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two wrongs don&apos;t make a right. Ask your parents..
+        /// </summary>
+        internal static string String28 {
+            get {
+                return ResourceManager.GetString("String28", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hey, even gods make mistakes..
+        /// </summary>
+        internal static string String29 {
+            get {
+                return ResourceManager.GetString("String29", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;ve seen mushrooms with more charm..
+        /// </summary>
+        internal static string String3 {
+            get {
+                return ResourceManager.GetString("String3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must&apos;ve been born drunk..
+        /// </summary>
+        internal static string String30 {
+            get {
+                return ResourceManager.GetString("String30", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to After seeing your face I&apos;m considering taking up drinking..
+        /// </summary>
+        internal static string String31 {
+            get {
+                return ResourceManager.GetString("String31", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You&apos;re what happens when God rolls a 1..
+        /// </summary>
+        internal static string String32 {
+            get {
+                return ResourceManager.GetString("String32", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If a princess kisses you will you stop being a bitch?.
+        /// </summary>
+        internal static string String33 {
+            get {
+                return ResourceManager.GetString("String33", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;m glad your father beat you instead of cancer..
+        /// </summary>
+        internal static string String34 {
+            get {
+                return ResourceManager.GetString("String34", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your family tree must be a cactus because everybody on it is a prick..
+        /// </summary>
+        internal static string String35 {
+            get {
+                return ResourceManager.GetString("String35", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The only way you&apos;ll ever get laid is if you crawl up a chicken&apos;s ass and wait..
+        /// </summary>
+        internal static string String36 {
+            get {
+                return ResourceManager.GetString("String36", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your birth certificate is an apology letter from the condom factory..
+        /// </summary>
+        internal static string String37 {
+            get {
+                return ResourceManager.GetString("String37", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If I wanted to kill myself I’d climb up your IQ and jump to your ego. Wait, I mean, jump to your face... Climb to your ego... Ugh, just do me a favor and die..
+        /// </summary>
+        internal static string String38 {
+            get {
+                return ResourceManager.GetString("String38", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I don&apos;t know what makes you so stupid, but it really works..
+        /// </summary>
+        internal static string String39 {
+            get {
+                return ResourceManager.GetString("String39", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If I could save a child&apos;s life by sparing you I&apos;d have to think about it..
+        /// </summary>
+        internal static string String4 {
+            get {
+                return ResourceManager.GetString("String4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You, sir, are an oxygen thief!.
+        /// </summary>
+        internal static string String40 {
+            get {
+                return ResourceManager.GetString("String40", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Some babies were dropped on their heads but you were clearly thrown at a wall..
+        /// </summary>
+        internal static string String41 {
+            get {
+                return ResourceManager.GetString("String41", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please shut your mouth when you’re talking to me..
+        /// </summary>
+        internal static string String42 {
+            get {
+                return ResourceManager.GetString("String42", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d slap you, but that would be animal abuse..
+        /// </summary>
+        internal static string String43 {
+            get {
+                return ResourceManager.GetString("String43", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The last time I saw something like you, I flushed it..
+        /// </summary>
+        internal static string String44 {
+            get {
+                return ResourceManager.GetString("String44", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You&apos;re the reason the gene pool needs a lifeguard..
+        /// </summary>
+        internal static string String45 {
+            get {
+                return ResourceManager.GetString("String45", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Of course I talk like an idiot, how else would you understand me?.
+        /// </summary>
+        internal static string String46 {
+            get {
+                return ResourceManager.GetString("String46", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to So, a thought crossed your mind? Must have been a long and lonely journey..
+        /// </summary>
+        internal static string String47 {
+            get {
+                return ResourceManager.GetString("String47", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Every time I&apos;m next to you, I get a fierce desire to be alone..
+        /// </summary>
+        internal static string String48 {
+            get {
+                return ResourceManager.GetString("String48", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We can always tell when you are lying. Your lips move..
+        /// </summary>
+        internal static string String49 {
+            get {
+                return ResourceManager.GetString("String49", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I wish we were better strangers..
+        /// </summary>
+        internal static string String5 {
+            get {
+                return ResourceManager.GetString("String5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If you were anymore inbred you would be a sandwich..
+        /// </summary>
+        internal static string String50 {
+            get {
+                return ResourceManager.GetString("String50", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I wouldn&apos;t sell your corpse for cocaine, and I like cocaine..
+        /// </summary>
+        internal static string String51 {
+            get {
+                return ResourceManager.GetString("String51", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to How many times must I flush you before you go away?.
+        /// </summary>
+        internal static string String52 {
+            get {
+                return ResourceManager.GetString("String52", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I think your gene pool needs more chlorine..
+        /// </summary>
+        internal static string String53 {
+            get {
+                return ResourceManager.GetString("String53", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The difference between you and eggs is that eggs get laid and you don’t..
+        /// </summary>
+        internal static string String54 {
+            get {
+                return ResourceManager.GetString("String54", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to What language is that? Sounds a lot like bullshit..
+        /// </summary>
+        internal static string String55 {
+            get {
+                return ResourceManager.GetString("String55", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hm... What? Oh, I was just trying to imagine what you&apos;d be like with personality..
+        /// </summary>
+        internal static string String56 {
+            get {
+                return ResourceManager.GetString("String56", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Are.. Are your parents siblings?.
+        /// </summary>
+        internal static string String57 {
+            get {
+                return ResourceManager.GetString("String57", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I would love to insult you but I’m afraid I won’t do it as well as nature did..
+        /// </summary>
+        internal static string String58 {
+            get {
+                return ResourceManager.GetString("String58", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Somewhere out there, there’s a tree whose single purpose on earth is to replace the oxygen you waste. Go find it and apologize..
+        /// </summary>
+        internal static string String59 {
+            get {
+                return ResourceManager.GetString("String59", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You look like you lost a fight with a rake..
+        /// </summary>
+        internal static string String6 {
+            get {
+                return ResourceManager.GetString("String6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I have neither the time nor the crayons to explain this to you..
+        /// </summary>
+        internal static string String60 {
+            get {
+                return ResourceManager.GetString("String60", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If only your mother had swallowed you instead….
+        /// </summary>
+        internal static string String61 {
+            get {
+                return ResourceManager.GetString("String61", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Not saying I hate you, but I would unplug your life support to charge my phone..
+        /// </summary>
+        internal static string String62 {
+            get {
+                return ResourceManager.GetString("String62", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Smelly, aggravating, hard to look at, dumb as bricks.. No, no, I&apos;m not insulting you. I&apos;m *describing* you..
+        /// </summary>
+        internal static string String63 {
+            get {
+                return ResourceManager.GetString("String63", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Did your parents ever ask you to run away from home?.
+        /// </summary>
+        internal static string String64 {
+            get {
+                return ResourceManager.GetString("String64", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Any similarity between you and a human is purely coincidental..
+        /// </summary>
+        internal static string String65 {
+            get {
+                return ResourceManager.GetString("String65", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I could say nice things about you, but I’d rather tell the truth..
+        /// </summary>
+        internal static string String66 {
+            get {
+                return ResourceManager.GetString("String66", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You hear that? ... ... ... It’s the sound of no one caring..
+        /// </summary>
+        internal static string String67 {
+            get {
+                return ResourceManager.GetString("String67", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I see that you’ve set aside this special time to humiliate yourself in public..
+        /// </summary>
+        internal static string String68 {
+            get {
+                return ResourceManager.GetString("String68", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I’m not saying I hate you I’m just saying if you got hit by a bus, I would be driving that bus..
+        /// </summary>
+        internal static string String69 {
+            get {
+                return ResourceManager.GetString("String69", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d say you&apos;re dumb as a rock, but rocks offer better conversation..
+        /// </summary>
+        internal static string String7 {
+            get {
+                return ResourceManager.GetString("String7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I don’t think you are stupid. You just have a bad luck when thinking..
+        /// </summary>
+        internal static string String70 {
+            get {
+                return ResourceManager.GetString("String70", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Usually, people live and learn. You.. you just live..
+        /// </summary>
+        internal static string String71 {
+            get {
+                return ResourceManager.GetString("String71", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You&apos;re an offence to nature and everybody should beat you..
+        /// </summary>
+        internal static string String72 {
+            get {
+                return ResourceManager.GetString("String72", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Isn’t it rather dangerous to use one’s entire vocabulary in a single sentence?.
+        /// </summary>
+        internal static string String73 {
+            get {
+                return ResourceManager.GetString("String73", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You should eat your make-up instead, that way you can at least be pretty on the inside..
+        /// </summary>
+        internal static string String74 {
+            get {
+                return ResourceManager.GetString("String74", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why is it acceptable for you to be an idiot but not for me to point it out?.
+        /// </summary>
+        internal static string String75 {
+            get {
+                return ResourceManager.GetString("String75", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two wrongs don’t make a right… and you are, like, three wrongs..
+        /// </summary>
+        internal static string String76 {
+            get {
+                return ResourceManager.GetString("String76", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I’d kick you in the teeth, but that probably wouldn’t do much..
+        /// </summary>
+        internal static string String77 {
+            get {
+                return ResourceManager.GetString("String77", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must be upset that growling and looking tough doesn’t fix stupidity..
+        /// </summary>
+        internal static string String78 {
+            get {
+                return ResourceManager.GetString("String78", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Any similarity between you and something with brain cells is purely coincidental..
+        /// </summary>
+        internal static string String79 {
+            get {
+                return ResourceManager.GetString("String79", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Believe in yourself, because no one else does..
+        /// </summary>
+        internal static string String8 {
+            get {
+                return ResourceManager.GetString("String8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Look, don’t go to a mind reader. Go to a palm reader instead, because at least we’re sure that you have palms..
+        /// </summary>
+        internal static string String80 {
+            get {
+                return ResourceManager.GetString("String80", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Leaving so soon? I was about to poison your tea..
+        /// </summary>
+        internal static string String81 {
+            get {
+                return ResourceManager.GetString("String81", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you ever wonder what life would be like if you had enough oxygen at birth?.
+        /// </summary>
+        internal static string String82 {
+            get {
+                return ResourceManager.GetString("String82", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I can see yer point, but I still think yer full of shit..
+        /// </summary>
+        internal static string String83 {
+            get {
+                return ResourceManager.GetString("String83", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ye started at the bottom, an&apos; it&apos;s been downhill ever since..
+        /// </summary>
+        internal static string String84 {
+            get {
+                return ResourceManager.GetString("String84", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ah, this is an excellent time for ye ta become a missin&apos; person..
+        /// </summary>
+        internal static string String85 {
+            get {
+                return ResourceManager.GetString("String85", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Me middle finger suffers rigor mortis when I see ye..
+        /// </summary>
+        internal static string String86 {
+            get {
+                return ResourceManager.GetString("String86", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d call ye a cunt, but ye don&apos;t have the depth nor the warmth..
+        /// </summary>
+        internal static string String87 {
+            get {
+                return ResourceManager.GetString("String87", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ye remind me of a penny: Two-faced an&apos; fucking worthless..
+        /// </summary>
+        internal static string String88 {
+            get {
+                return ResourceManager.GetString("String88", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ye grow on people. Just like cancer..
+        /// </summary>
+        internal static string String89 {
+            get {
+                return ResourceManager.GetString("String89", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Why don&apos;t you slip into something more comfortable like a coma?.
+        /// </summary>
+        internal static string String9 {
+            get {
+                return ResourceManager.GetString("String9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Life is short, an&apos; so&apos;s ye penis..
+        /// </summary>
+        internal static string String90 {
+            get {
+                return ResourceManager.GetString("String90", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Some babies were dropped, shaken or abandoned by their parents.. Apparently yours.. yours threw you at a bus. Twice..
+        /// </summary>
+        internal static string String91 {
+            get {
+                return ResourceManager.GetString("String91", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;m not sayin&apos; yer dumb. But if I had to name the 5 dumbest people I know, you&apos;d be at least 3 of them..
+        /// </summary>
+        internal static string String92 {
+            get {
+                return ResourceManager.GetString("String92", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No, no. Keep talking, please. I always yawn when I&apos;m interested..
+        /// </summary>
+        internal static string String93 {
+            get {
+                return ResourceManager.GetString("String93", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Any friend of yours - deserves ta be shot..
+        /// </summary>
+        internal static string String94 {
+            get {
+                return ResourceManager.GetString("String94", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A sharp tongue does not mean ye have a keen mind..
+        /// </summary>
+        internal static string String95 {
+            get {
+                return ResourceManager.GetString("String95", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to When ye was a lad, ye mother wanted someone ta take care of ya. Unfortunately, she couldn&apos;t afford the hitman..
+        /// </summary>
+        internal static string String96 {
+            get {
+                return ResourceManager.GetString("String96", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I&apos;d slap ye, but I&apos;m against animal abuse..
+        /// </summary>
+        internal static string String97 {
+            get {
+                return ResourceManager.GetString("String97", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Oi! If I want yer opinion, I&apos;d rattle ye cage..
+        /// </summary>
+        internal static string String98 {
+            get {
+                return ResourceManager.GetString("String98", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Away with ye, ye elf-skin, dried tortle&apos;s-tongue, owl-bear&apos;s pizzle, ye .. ye.. what was I goin&apos; on abou&apos;?.
+        /// </summary>
+        internal static string String99 {
+            get {
+                return ResourceManager.GetString("String99", resourceCulture);
+            }
+        }
     }
 }

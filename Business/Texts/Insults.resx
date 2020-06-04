@@ -1,101 +1,420 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="String" xml:space="preserve">
+    <value>The only foe you've dropped is my expectations.</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>You must have worked hard to be this incompetent.</value>
+  </data>
+  <data name="String10" xml:space="preserve">
+    <value>You couldn't hit the broad side of your mother's ass.</value>
+  </data>
+  <data name="String11" xml:space="preserve">
+    <value>With a face like that, you'd make a lovely corpse.</value>
+  </data>
+  <data name="String12" xml:space="preserve">
+    <value>Go deepthroat a cactus.</value>
+  </data>
+  <data name="String13" xml:space="preserve">
+    <value>How about you play a nice game of hide and go fuck yourself.</value>
+  </data>
+  <data name="String14" xml:space="preserve">
+    <value>I'd shoot you but I wouldn't wish that on any arrow.</value>
+  </data>
+  <data name="String15" xml:space="preserve">
+    <value>You're why parents beat their children.</value>
+  </data>
+  <data name="String16" xml:space="preserve">
+    <value>You look like your face was on fire and someone tried to put it out with an ice pick.</value>
+  </data>
+  <data name="String17" xml:space="preserve">
+    <value>You remind me of Rapunzel, except instead of letting your hair down you let everyone else down.</value>
+  </data>
+  <data name="String18" xml:space="preserve">
+    <value>We all make mistakes. I'm sure your parents are good people.</value>
+  </data>
+  <data name="String19" xml:space="preserve">
+    <value>Your parents should've known better.</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>I'd call you a complete moron but I think you're missing a few screws.</value>
+  </data>
+  <data name="String20" xml:space="preserve">
+    <value>Anyone who ever loved you was wrong.</value>
+  </data>
+  <data name="String21" xml:space="preserve">
+    <value>If you were any more inbred you'd be a sandwich.</value>
+  </data>
+  <data name="String22" xml:space="preserve">
+    <value>So what flew faster? Your arrows, or your family leaving you?</value>
+  </data>
+  <data name="String23" xml:space="preserve">
+    <value>My blows avoid you just like everyone else in your life.</value>
+  </data>
+  <data name="String24" xml:space="preserve">
+    <value>If you were on fire I wouldn't piss on you to put it out.</value>
+  </data>
+  <data name="String25" xml:space="preserve">
+    <value>You're about as useful as teets on a breastplate.</value>
+  </data>
+  <data name="String26" xml:space="preserve">
+    <value>When you were young your home tried to run away from you.</value>
+  </data>
+  <data name="String27" xml:space="preserve">
+    <value>When you played hide and seek as a kid no one looked for you.</value>
+  </data>
+  <data name="String28" xml:space="preserve">
+    <value>Two wrongs don't make a right. Ask your parents.</value>
+  </data>
+  <data name="String29" xml:space="preserve">
+    <value>Hey, even gods make mistakes.</value>
+  </data>
+  <data name="String3" xml:space="preserve">
+    <value>I've seen mushrooms with more charm.</value>
+  </data>
+  <data name="String30" xml:space="preserve">
+    <value>You must've been born drunk.</value>
+  </data>
+  <data name="String31" xml:space="preserve">
+    <value>After seeing your face I'm considering taking up drinking.</value>
+  </data>
+  <data name="String32" xml:space="preserve">
+    <value>You're what happens when God rolls a 1.</value>
+  </data>
+  <data name="String33" xml:space="preserve">
+    <value>If a princess kisses you will you stop being a bitch?</value>
+  </data>
+  <data name="String34" xml:space="preserve">
+    <value>I'm glad your father beat you instead of cancer.</value>
+  </data>
+  <data name="String35" xml:space="preserve">
+    <value>Your family tree must be a cactus because everybody on it is a prick.</value>
+  </data>
+  <data name="String36" xml:space="preserve">
+    <value>The only way you'll ever get laid is if you crawl up a chicken's ass and wait.</value>
+  </data>
+  <data name="String37" xml:space="preserve">
+    <value>Your birth certificate is an apology letter from the condom factory.</value>
+  </data>
+  <data name="String38" xml:space="preserve">
+    <value>If I wanted to kill myself I’d climb up your IQ and jump to your ego. Wait, I mean, jump to your face... Climb to your ego... Ugh, just do me a favor and die.</value>
+  </data>
+  <data name="String39" xml:space="preserve">
+    <value>I don't know what makes you so stupid, but it really works.</value>
+  </data>
+  <data name="String4" xml:space="preserve">
+    <value>If I could save a child's life by sparing you I'd have to think about it.</value>
+  </data>
+  <data name="String40" xml:space="preserve">
+    <value>You, sir, are an oxygen thief!</value>
+  </data>
+  <data name="String41" xml:space="preserve">
+    <value>Some babies were dropped on their heads but you were clearly thrown at a wall.</value>
+  </data>
+  <data name="String42" xml:space="preserve">
+    <value>Please shut your mouth when you’re talking to me.</value>
+  </data>
+  <data name="String43" xml:space="preserve">
+    <value>I'd slap you, but that would be animal abuse.</value>
+  </data>
+  <data name="String44" xml:space="preserve">
+    <value>The last time I saw something like you, I flushed it.</value>
+  </data>
+  <data name="String45" xml:space="preserve">
+    <value>You're the reason the gene pool needs a lifeguard.</value>
+  </data>
+  <data name="String46" xml:space="preserve">
+    <value>Of course I talk like an idiot, how else would you understand me?</value>
+  </data>
+  <data name="String47" xml:space="preserve">
+    <value>So, a thought crossed your mind? Must have been a long and lonely journey.</value>
+  </data>
+  <data name="String48" xml:space="preserve">
+    <value>Every time I'm next to you, I get a fierce desire to be alone.</value>
+  </data>
+  <data name="String49" xml:space="preserve">
+    <value>We can always tell when you are lying. Your lips move.</value>
+  </data>
+  <data name="String5" xml:space="preserve">
+    <value>I wish we were better strangers.</value>
+  </data>
+  <data name="String50" xml:space="preserve">
+    <value>If you were anymore inbred you would be a sandwich.</value>
+  </data>
+  <data name="String51" xml:space="preserve">
+    <value>I wouldn't sell your corpse for cocaine, and I like cocaine.</value>
+  </data>
+  <data name="String52" xml:space="preserve">
+    <value>How many times must I flush you before you go away?</value>
+  </data>
+  <data name="String53" xml:space="preserve">
+    <value>I think your gene pool needs more chlorine.</value>
+  </data>
+  <data name="String54" xml:space="preserve">
+    <value>The difference between you and eggs is that eggs get laid and you don’t.</value>
+  </data>
+  <data name="String55" xml:space="preserve">
+    <value>What language is that? Sounds a lot like bullshit.</value>
+  </data>
+  <data name="String56" xml:space="preserve">
+    <value>Hm... What? Oh, I was just trying to imagine what you'd be like with personality.</value>
+  </data>
+  <data name="String57" xml:space="preserve">
+    <value>Are.. Are your parents siblings?</value>
+  </data>
+  <data name="String58" xml:space="preserve">
+    <value>I would love to insult you but I’m afraid I won’t do it as well as nature did.</value>
+  </data>
+  <data name="String59" xml:space="preserve">
+    <value>Somewhere out there, there’s a tree whose single purpose on earth is to replace the oxygen you waste. Go find it and apologize.</value>
+  </data>
+  <data name="String6" xml:space="preserve">
+    <value>You look like you lost a fight with a rake.</value>
+  </data>
+  <data name="String60" xml:space="preserve">
+    <value>I have neither the time nor the crayons to explain this to you.</value>
+  </data>
+  <data name="String61" xml:space="preserve">
+    <value>If only your mother had swallowed you instead…</value>
+  </data>
+  <data name="String62" xml:space="preserve">
+    <value>Not saying I hate you, but I would unplug your life support to charge my phone.</value>
+  </data>
+  <data name="String63" xml:space="preserve">
+    <value>Smelly, aggravating, hard to look at, dumb as bricks.. No, no, I'm not insulting you. I'm *describing* you.</value>
+  </data>
+  <data name="String64" xml:space="preserve">
+    <value>Did your parents ever ask you to run away from home?</value>
+  </data>
+  <data name="String65" xml:space="preserve">
+    <value>Any similarity between you and a human is purely coincidental.</value>
+  </data>
+  <data name="String66" xml:space="preserve">
+    <value>I could say nice things about you, but I’d rather tell the truth.</value>
+  </data>
+  <data name="String67" xml:space="preserve">
+    <value>You hear that? ... ... ... It’s the sound of no one caring.</value>
+  </data>
+  <data name="String68" xml:space="preserve">
+    <value>I see that you’ve set aside this special time to humiliate yourself in public.</value>
+  </data>
+  <data name="String69" xml:space="preserve">
+    <value>I’m not saying I hate you I’m just saying if you got hit by a bus, I would be driving that bus.</value>
+  </data>
+  <data name="String7" xml:space="preserve">
+    <value>I'd say you're dumb as a rock, but rocks offer better conversation.</value>
+  </data>
+  <data name="String70" xml:space="preserve">
+    <value>I don’t think you are stupid. You just have a bad luck when thinking.</value>
+  </data>
+  <data name="String71" xml:space="preserve">
+    <value>Usually, people live and learn. You.. you just live.</value>
+  </data>
+  <data name="String72" xml:space="preserve">
+    <value>You're an offence to nature and everybody should beat you.</value>
+  </data>
+  <data name="String73" xml:space="preserve">
+    <value>Isn’t it rather dangerous to use one’s entire vocabulary in a single sentence?</value>
+  </data>
+  <data name="String74" xml:space="preserve">
+    <value>You should eat your make-up instead, that way you can at least be pretty on the inside.</value>
+  </data>
+  <data name="String75" xml:space="preserve">
+    <value>Why is it acceptable for you to be an idiot but not for me to point it out?</value>
+  </data>
+  <data name="String76" xml:space="preserve">
+    <value>Two wrongs don’t make a right… and you are, like, three wrongs.</value>
+  </data>
+  <data name="String77" xml:space="preserve">
+    <value>I’d kick you in the teeth, but that probably wouldn’t do much.</value>
+  </data>
+  <data name="String78" xml:space="preserve">
+    <value>You must be upset that growling and looking tough doesn’t fix stupidity.</value>
+  </data>
+  <data name="String79" xml:space="preserve">
+    <value>Any similarity between you and something with brain cells is purely coincidental.</value>
+  </data>
+  <data name="String8" xml:space="preserve">
+    <value>Believe in yourself, because no one else does.</value>
+  </data>
+  <data name="String80" xml:space="preserve">
+    <value>Look, don’t go to a mind reader. Go to a palm reader instead, because at least we’re sure that you have palms.</value>
+  </data>
+  <data name="String81" xml:space="preserve">
+    <value>Leaving so soon? I was about to poison your tea.</value>
+  </data>
+  <data name="String82" xml:space="preserve">
+    <value>Do you ever wonder what life would be like if you had enough oxygen at birth?</value>
+  </data>
+  <data name="String83" xml:space="preserve">
+    <value>I can see yer point, but I still think yer full of shit.</value>
+  </data>
+  <data name="String84" xml:space="preserve">
+    <value>Ye started at the bottom, an' it's been downhill ever since.</value>
+  </data>
+  <data name="String85" xml:space="preserve">
+    <value>Ah, this is an excellent time for ye ta become a missin' person.</value>
+  </data>
+  <data name="String86" xml:space="preserve">
+    <value>Me middle finger suffers rigor mortis when I see ye.</value>
+  </data>
+  <data name="String87" xml:space="preserve">
+    <value>I'd call ye a cunt, but ye don't have the depth nor the warmth.</value>
+  </data>
+  <data name="String88" xml:space="preserve">
+    <value>Ye remind me of a penny: Two-faced an' fucking worthless.</value>
+  </data>
+  <data name="String89" xml:space="preserve">
+    <value>Ye grow on people. Just like cancer.</value>
+  </data>
+  <data name="String9" xml:space="preserve">
+    <value>Why don't you slip into something more comfortable like a coma?</value>
+  </data>
+  <data name="String90" xml:space="preserve">
+    <value>Life is short, an' so's ye penis.</value>
+  </data>
+  <data name="String91" xml:space="preserve">
+    <value>Some babies were dropped, shaken or abandoned by their parents.. Apparently yours.. yours threw you at a bus. Twice.</value>
+  </data>
+  <data name="String92" xml:space="preserve">
+    <value>I'm not sayin' yer dumb. But if I had to name the 5 dumbest people I know, you'd be at least 3 of them.</value>
+  </data>
+  <data name="String93" xml:space="preserve">
+    <value>No, no. Keep talking, please. I always yawn when I'm interested.</value>
+  </data>
+  <data name="String94" xml:space="preserve">
+    <value>Any friend of yours - deserves ta be shot.</value>
+  </data>
+  <data name="String95" xml:space="preserve">
+    <value>A sharp tongue does not mean ye have a keen mind.</value>
+  </data>
+  <data name="String96" xml:space="preserve">
+    <value>When ye was a lad, ye mother wanted someone ta take care of ya. Unfortunately, she couldn't afford the hitman.</value>
+  </data>
+  <data name="String97" xml:space="preserve">
+    <value>I'd slap ye, but I'm against animal abuse.</value>
+  </data>
+  <data name="String98" xml:space="preserve">
+    <value>Oi! If I want yer opinion, I'd rattle ye cage.</value>
+  </data>
+  <data name="String99" xml:space="preserve">
+    <value>Away with ye, ye elf-skin, dried tortle's-tongue, owl-bear's pizzle, ye .. ye.. what was I goin' on abou'?</value>
+  </data>
 </root>

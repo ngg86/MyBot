@@ -59,5 +59,185 @@ namespace Business.Texts {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #1: Ye can ne&apos;er hav&apos; enough butter..
+        /// </summary>
+        internal static string String {
+            get {
+                return ResourceManager.GetString("String", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #2: Remember; Whene&apos;er &apos;n Elf touches ye, it&apos;s not okay ta touch &apos;em back. Ever. Best go touch yeself..
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #11: If it be brown, flush it down. Unless it be a mushroom. Be absolutely sure it be a mushroom afor a&apos;eatin&apos; it..
+        /// </summary>
+        internal static string String10 {
+            get {
+                return ResourceManager.GetString("String10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #12: I&apos;ve eaten some very good dog food in my time..
+        /// </summary>
+        internal static string String11 {
+            get {
+                return ResourceManager.GetString("String11", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #13: Remember; Should ye be pissin&apos; blue; yer sister&apos;s cousin&apos;s neighbour&apos;s parrot&apos;s previous owner&apos;s siamese twin&apos;s adopted goblin&apos;s sister&apos;s, twice removed, employer&apos;s bathhouse is *not* the best place ta be pissin&apos; in ta first place! Also I be hungry..
+        /// </summary>
+        internal static string String12 {
+            get {
+                return ResourceManager.GetString("String12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #14: One teaspoon ta relax. To tespun ta rlax more. Fri taspn t&apos; s&apos;gd&apos;n&apos;sf..
+        /// </summary>
+        internal static string String13 {
+            get {
+                return ResourceManager.GetString("String13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #15: *gasp* Don&apos;t look now, but I think I exist!.
+        /// </summary>
+        internal static string String14 {
+            get {
+                return ResourceManager.GetString("String14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #16: I&apos;ve got a jar of fog!.
+        /// </summary>
+        internal static string String15 {
+            get {
+                return ResourceManager.GetString("String15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #17: C-can I borrow ye Mage Hand? It&apos;s fer.. *personal*.. reasons....
+        /// </summary>
+        internal static string String16 {
+            get {
+                return ResourceManager.GetString("String16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #18: Fear not people I Baerly know! Baerl is here!.
+        /// </summary>
+        internal static string String17 {
+            get {
+                return ResourceManager.GetString("String17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #19: NO! That&apos;s *my* frog. Mine..
+        /// </summary>
+        internal static string String18 {
+            get {
+                return ResourceManager.GetString("String18", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #20: Fer th&apos; last time, Baerl not allowed ta get wet!.
+        /// </summary>
+        internal static string String19 {
+            get {
+                return ResourceManager.GetString("String19", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #3: Ye call tha&apos; a hammer!? *This!* This is a- Okay, it&apos;s not a hammer, but just touch it. Please..
+        /// </summary>
+        internal static string String2 {
+            get {
+                return ResourceManager.GetString("String2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #4: What smells like burnin&apos; pussy?.
+        /// </summary>
+        internal static string String3 {
+            get {
+                return ResourceManager.GetString("String3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #5: Ye got any.. *chainmail*?.
+        /// </summary>
+        internal static string String4 {
+            get {
+                return ResourceManager.GetString("String4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #6: Would ye like some tea? **I DON&apos;T HAVE ANY TEA!**.
+        /// </summary>
+        internal static string String5 {
+            get {
+                return ResourceManager.GetString("String5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #7: *Gibberish*.
+        /// </summary>
+        internal static string String6 {
+            get {
+                return ResourceManager.GetString("String6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #8: If it be bubblin&apos;, it prob&apos;ly be for drinkin&apos;..
+        /// </summary>
+        internal static string String7 {
+            get {
+                return ResourceManager.GetString("String7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #9: I could fly if it were Tuesday!.
+        /// </summary>
+        internal static string String8 {
+            get {
+                return ResourceManager.GetString("String8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Baerl quote #10: Crazy bastards, Dwarves. No point in tryin&apos; ta understand tha&apos; lot..
+        /// </summary>
+        internal static string String9 {
+            get {
+                return ResourceManager.GetString("String9", resourceCulture);
+            }
+        }
     }
 }

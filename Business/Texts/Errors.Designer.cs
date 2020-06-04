@@ -59,5 +59,86 @@ namespace Business.Texts {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I cannae roll tha&apos;!.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O, aye. I see wha&apos; ye did thar....
+        /// </summary>
+        internal static string Error1 {
+            get {
+                return ResourceManager.GetString("Error1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to *Wanders off*.
+        /// </summary>
+        internal static string Error2 {
+            get {
+                return ResourceManager.GetString("Error2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fornicate th&apos; feces, Baerl be gone!.
+        /// </summary>
+        internal static string Error3 {
+            get {
+                return ResourceManager.GetString("Error3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to *nods sagely*   An&apos; tha&apos;s precisely why we be needin&apos; the butter..
+        /// </summary>
+        internal static string Error4 {
+            get {
+                return ResourceManager.GetString("Error4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to By Gond&apos;s hairy arse, what are ye tryin&apos; ta do!?.
+        /// </summary>
+        internal static string Error5 {
+            get {
+                return ResourceManager.GetString("Error5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to *Dons monocle*   So.. Does failure run in yer family?.
+        /// </summary>
+        internal static string Error6 {
+            get {
+                return ResourceManager.GetString("Error6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Such bugs and goblins in my life!.
+        /// </summary>
+        internal static string Error7 {
+            get {
+                return ResourceManager.GetString("Error7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to I be visiting yer mother shortly, and settin&apos; yer bedtime a few hours earlier..
+        /// </summary>
+        internal static string Error8 {
+            get {
+                return ResourceManager.GetString("Error8", resourceCulture);
+            }
+        }
     }
 }
