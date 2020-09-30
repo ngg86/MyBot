@@ -1,8 +1,5 @@
-﻿using Discord.Commands;
-
-namespace Business.Models
+﻿namespace Business.Models
 {
-	[NamedArgumentType]
 	public class DiceArguments
 	{
 		public int AmountOfDice { get; set; }

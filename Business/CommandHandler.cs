@@ -1,47 +1,92 @@
-﻿using Discord.Commands;
-using Discord.WebSocket;
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 using System.Threading.Tasks;
+using DSharpPlus;
+using DSharpPlus.EventArgs;
 
 namespace Business
 {
 	public class CommandHandler
 	{
-		private readonly DiscordSocketClient _client;
-		private readonly CommandService _service;
+		private readonly DiscordClient _client;
+#pragma warning disable IDE0052 // Remove unread private members
 		private IServiceProvider _provider;
-
-		public CommandHandler(DiscordSocketClient client, CommandService service, IServiceProvider provider)
+#pragma warning restore IDE0052 // Remove unread private members
+		private List<string> _botCommands = new List<string>() { "insult", "roll", "quote", "event" };
+		public CommandHandler(DiscordClient client, IServiceProvider provider)
 		{
 			_client = client;
-			_service = service;
 			_provider = provider;
 		}
 
-		public async Task InitializeCommandsAsync(IServiceProvider provider)
+		public void InitializeCommands(IServiceProvider provider)
 		{
 			_provider = provider;
-			await _service.AddModulesAsync(Assembly.GetExecutingAssembly(), _provider);
-			_client.MessageReceived += MessageReceived;
-		}
-
-		private async Task MessageReceived(SocketMessage incomingMessage)
-		{
-			if (!(incomingMessage is SocketUserMessage message)) return;
-			if (message.Source != Discord.MessageSource.User) return;
-
-			var position = 0;
-			if (!message.HasCharPrefix('!', ref position)) return;
-
-
-			var context = new SocketCommandContext(_client, message);
-			var result = await _service.ExecuteAsync(context, position, _provider);
-
-			if (result.Error.HasValue && result.Error.Value != CommandError.UnknownCommand)
+			var message = string.Empty;
+			_client.MessageCreated += async e =>
 			{
-				Console.WriteLine(result.ToString());
-			}
+				if (e.Message.Content.StartsWith("!"))
+				{
+					var messageArgument = e.Message.Content.Substring(1,e.Message.Content.Length-1);
+					foreach(var argument in _botCommands)
+					{
+						if (messageArgument.StartsWith(argument))
+						{
+							switch (argument)
+							{
+								case "insult":
+									message = HandleInsult();
+									break;
+
+								case "quote":
+									message = HandleQuote();
+									break;
+
+								case "roll":
+									message = HandleRoll(messageArgument.Substring(4, messageArgument.Length-4));
+									break;
+
+								case "event":
+									message = HandleEvent(string.Empty);
+									break;
+
+								default:
+									message = HandleError();
+									break;
+							}
+							break;
+						}
+					}
+
+					await e.Message.RespondAsync($"{e.Message.Author.Username}  {message}");
+				}
+			};
+		}
+
+		private string HandleRoll(string input)
+		{
+			var diceArgs = Logic.DiceRoller.SplitArgs(input);
+			return Logic.DiceRoller.RollDice(diceArgs);
+		}
+
+		private string HandleQuote()
+		{
+			return Logic.TextRoller.GetRandomQuote();
+		}
+		private string HandleInsult()
+		{
+			return Logic.TextRoller.GetRandomInsult();
+		}
+		private string HandleEvent(string input)
+		{
+			//NYI
+			return Logic.TextRoller.GetRandomErrorMessage();
+		}
+
+		private string HandleError()
+		{
+			return Logic.TextRoller.GetRandomErrorMessage();
 		}
 	}
 }
